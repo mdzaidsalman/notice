@@ -26,7 +26,7 @@ h1{
 li{
     list-style-type: none;
     Padding: 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
 }
 li:hover{
@@ -42,10 +42,11 @@ td{
     
     margin: 10px;
     padding: 5px;
+    font-size: 12px;
 }
 tr:hover{
-    background-color: rgb(199, 105, 220);
-    color: white;
+    background-color: rgb(196, 206, 240);
+    color: rgb(0, 0, 0);
 }
 table{
     margin-left: 20px;
