@@ -120,14 +120,14 @@ p{
 
 .contact-input{
     width:290px;
-    height: 40px;
+    height: 30px;
     border: none;
     outline: none;
     padding-left: 25px;
     font-weight: 500;
     color: #666;
     border-radius: 20px;
-    margin: 10px;
+    margin: 5px;
     
 }
 .contact-input:focus{
@@ -170,7 +170,7 @@ p{
 .main-image{
     width: 150px;
     border-radius: 100px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .collapsible {
@@ -202,4 +202,15 @@ p{
     margin-left: 30px;
     border-radius: 80px;
     margin-top: 20px;
+  }
+
+  .get-text{
+  
+  }
+
+  .getintouch-text{
+    font-size: 2rem;
+    color: navy;
+    font-weight: bolder;
+    margin-left: 30px;
   }
