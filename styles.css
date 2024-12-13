@@ -128,6 +128,10 @@ p{
     color: #666;
     border-radius: 20px;
     margin: 10px;
+    
+}
+.contact-input:focus{
+    border:2px solid #ff994f;
 }
 
 .contact-input textarea{
