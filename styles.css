@@ -126,7 +126,7 @@ p{
     padding-left: 25px;
     font-weight: 500;
     color: #666;
-    border-radius: 50px;
+    border-radius: 20px;
     margin: 10px;
 }
 
@@ -139,3 +139,35 @@ p{
     display: flex;
 }
 
+.main-text{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hello{
+    font-size: 10px;
+}
+
+.description{
+    font-size: 10px;
+}
+.I{
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+
+.name{
+    color: rgb(199, 10, 85);
+    font-weight: bolder;   
+}
+
+.main-image{
+    width: 150px;
+    border-radius: 100px;
+    position: absolute;
+    left: 300px;
+    
+
+}
