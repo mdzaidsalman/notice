@@ -13,10 +13,12 @@ body{
 
 h1{
     margin: 10px;
+    color: white;
 }
 
 .container{
     display: flex;
+    background-color: rgb(23, 23, 126);
 }
 
 .menu{
@@ -26,12 +28,15 @@ h1{
 li{
     list-style-type: none;
     Padding: 20px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
+    color: rgb(23, 23, 126);
 }
 li:hover{
     cursor:pointer;
-    color: rgb(18, 243, 33);
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    transition: 100ms
 }
 
 h4{
@@ -42,11 +47,15 @@ td{
     
     margin: 10px;
     padding: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
 tr:hover{
     background-color: rgb(196, 206, 240);
     color: rgb(0, 0, 0);
+}
+
+.newsticker{
+    width: 40px;
 }
 table{
     margin-left: 20px;
@@ -54,7 +63,7 @@ table{
 
 p{
     margin: 0;
-    padding: 16px;
+    padding: 5px;
 }
 .footer{
     background-color: rgb(50, 104, 241);
@@ -66,4 +75,13 @@ p{
     width: 100vw;
     color: rgb(0, 0, 0);
     text-align: center;
+}
+
+.footer-logo{
+    width: 25px;
+}
+.footer-logo:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 8px;
 }
